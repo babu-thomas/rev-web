@@ -1,1 +1,1 @@
-Learning HTML and CSS by replicating other websites.
+Learning HTML and CSS by replicating other websites. Also learning to use git in the process.
