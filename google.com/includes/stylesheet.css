@@ -31,8 +31,19 @@ button[type="button"]
 	border-color: transparent;
 	text-align: center;
 	color: #757575;
+	background-color: #F2F2F2;
 	padding-right: 16px;
 	padding-left: 16px;
 	margin: 11px 4px 11px 4px;
 	height: 36px;
+}
+
+button[type="button"]:hover
+{
+	color: #000000;
+}
+
+button[type="button"]:focus
+{
+	border-color: #4D90FE;
 }
