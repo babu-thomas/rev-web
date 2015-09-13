@@ -35,7 +35,7 @@ button[type="button"]
 	background-color: #F2F2F2;
 	padding-right: 16px;
 	padding-left: 16px;
-	margin: 11px 4px 11px 4px;
+	margin: 30px 4px 30px 4px;
 	height: 36px;
 	display: inline-block;
 }
@@ -58,6 +58,12 @@ button[type="button"]:focus
 	width: 272px;
 	display: block;
 	margin: auto;
+}
+
+.logo_div
+{
+	margin-top: 150px;
+	margin-bottom: 30px;
 }
 
 .buttons_center
