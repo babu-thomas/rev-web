@@ -135,3 +135,42 @@
 	height: 18px;
 	vertical-align: middle;
 }
+
+.footer
+{
+	background-color: #F2F2F2;
+}
+
+.footer ul
+{
+	/* remove bullets */
+	list-style-type: none;
+	/* clear browser defaults */
+	margin: 0;
+	padding: 0;
+}
+
+.footer ul li
+{
+	display: inline-block;
+}
+
+.footer_link
+{
+	text-decoration: none;
+	color: #666666;
+	font-family: arial, sans-serif;
+	font-size: small;
+	line-height: 40px;
+	padding-left: 27px;
+}
+.footer_link:hover
+{
+	text-decoration: underline;
+}
+
+.footer_link:active
+{
+	text-decoration: underline;
+	color: #DD4B39;
+}
