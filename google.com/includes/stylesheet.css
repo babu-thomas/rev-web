@@ -1,3 +1,25 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	/* height is set so that later container height can be set in percentage */
+	height: 100%;
+}
+
+#container
+{
+	/* leave no whitespace at the bottom */
+	min-height: 100%;
+	/* position is set so that later footer can be positioned inside the container */
+	position: relative;
+}
+
+#content
+{
+	/* so that footer doesn't overlap the content on window resize */
+	padding-bottom: 42px;
+}
+
 .search_bar
 {
 	/* styles for search bar */
@@ -92,7 +114,7 @@
 .nav_bar
 {
 	text-align: right;
-	margin-top: 15px;
+	padding-top: 15px;
 	margin-right: 2px
 }
 
@@ -139,6 +161,12 @@
 .footer
 {
 	background-color: #F2F2F2;
+	/* positon at the bottom */
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	border-top: 1px solid #E4E4E4;
 }
 
 .footer ul
